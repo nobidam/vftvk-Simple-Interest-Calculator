@@ -14,6 +14,14 @@
             <br><br>
             <label for=years">No. of Years: </label>
             <input type="number" min="5" max="30" step="5" value="5" id="years" name="years" value="years">
+                                                                                                          
+            <div class="calculatorButton floatRight" id="actionCalculate">
+                <input type="submit" value="Calculate" class="btn" name="calculateButton" id="calculateButton">
+            </div>
+                                                                                                              
+            <div class="calculatorButton floatLeft" id="actionClear">
+                <input type="reset" name="reset" value="Clear" class="btn" onclick="return resetCalculator(this.form);">
+            </div>
                                                                                                        
 
 
