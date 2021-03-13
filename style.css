@@ -1,14 +1,19 @@
-body {background-color:white;}
+body {
+  background-color:white;
+}
+
 h1{
   color:gray;
   font-family:arial;
 }
+
 label {
   width: 600px;
   margin-left: 50px;
   font-family: arial
 }
-.button {
+
+.calculator {
   margin: 4px 20px;
 }
 
