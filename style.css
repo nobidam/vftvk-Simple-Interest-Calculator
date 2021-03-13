@@ -9,6 +9,7 @@ h1{
 
 label {
   width: 600px;
+  background-color: red;
   margin-left: 50px;
   font-family: arial
 }
