@@ -10,12 +10,11 @@ h1 {
 label {
   width: 600px;
   background-color: red;
-  margin-left: 50px;
   font-family: arial
 }
 
 .div1 {
    background-color: gray;
-  margin: 4px 20px;
+  margin-left: 50px;
 }
 
