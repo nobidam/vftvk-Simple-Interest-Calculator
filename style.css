@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: white;
 }
 
 h1 {
@@ -7,14 +7,19 @@ h1 {
   font-family:arial;
 }
 
+P {
+	font-family:arial;
+	margin-bottom: -12px;
+}
+
 label {
-  width: 600px;
-  background-color: red;
+  width: 100px;
   font-family: arial
 }
 
 .div1 {
-   background-color: gray;
+  background-color: white;
   margin-left: 50px;
 }
+
 
