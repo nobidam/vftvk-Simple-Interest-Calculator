@@ -4,6 +4,7 @@ body {
 
 h1 {
   color:gray;
+	text-align: center;
   font-family:arial;
 }
 
@@ -18,14 +19,15 @@ label {
 }
 
 .div0 {
-	background-color: gray;
+	margin: auto;
+	background-color: white;
 	border-radius: 25px;
-	padding: 25px; 
-  	width: 400px;
-  	height: 250px;
+	padding: 25px;
+  	width: 600px;
+  	height: 350px;
+	}
 
 .div1 {
+	background-color: white;
 	margin-left: 50px;
 }
-
-
