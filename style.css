@@ -17,9 +17,15 @@ label {
   font-family: arial
 }
 
+.div0 {
+	background-color: white;
+	border-radius: 25px;
+	padding: 25px; 
+  	width: 400px;
+  	height: 250px;
+
 .div1 {
-  background-color: white;
-  margin-left: 50px;
+	margin-left: 50px;
 }
 
 
