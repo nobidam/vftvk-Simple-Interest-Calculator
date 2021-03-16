@@ -8,7 +8,7 @@ function compute() {
   var endYear = startYear + t;
   var Amount = p * ((r/100) * t);
 
-  var StatementAText = "If you deposit " + p;
+  var StatementAText = "If you deposite " + p;
   var StatementBText = "On an interest of " + r + "%";
   var StatementCText = "You will receive an amount of $" + Amount;
   var StatementDText = "In the year " + endYear;
