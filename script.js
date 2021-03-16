@@ -6,7 +6,7 @@ function compute() {
   var startYear = 2020;
   var t = +document.getElementById("years").value;
   var endYear = startYear + t;
-  var Amount = p * (1 + ((r/100) * t));
+  var Amount = p * ((r/100) * t);
 
   var StatementAText = "If you deposit " + p;
   var StatementBText = "On an interest of " + r + "%";
