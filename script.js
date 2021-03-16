@@ -1,4 +1,4 @@
-unction compute() {
+function compute() {
 
 
   var p = +document.getElementById("principal").value;
@@ -21,5 +21,3 @@ unction compute() {
     document.getElementById("statementD").innerHTML = StatementDText;
 
 }
-
-        
