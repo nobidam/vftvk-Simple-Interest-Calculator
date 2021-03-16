@@ -2,10 +2,10 @@
     <head>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
+                	background-color: black;
+
     </head>
     <body>
-        	background-color: black;
-
         <h1>Simple Interest Calculator</h1>
 
         <div class="div0">
@@ -14,7 +14,7 @@
                 <input type="number" value="900000" step="10000" id="principal" name="principal" value="principal">
                 <br><br>
 
-                <label for="rate">Interest Rates </label>
+                <label for="rate">Interest Rate </label>
                 <input type="range" min="1" max="10" value="5" step="0.5" id="rate" name="rate" value="rate"
                  oninput="document.getElementById('iRate').innerHTML = this.value">
                 <label id="iRate"></label>
