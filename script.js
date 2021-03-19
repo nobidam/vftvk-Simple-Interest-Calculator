@@ -1,15 +1,15 @@
 function compute() {
 
 
-  var p = +document.getElementById("principal").value;
-  var r = +document.getElementById("rate").value;
+  var principal = +document.getElementById("principal").value;
+  var rate = +document.getElementById("rate").value;
   var startYear = 2020;
-  var t = +document.getElementById("years").value;
-  var endYear = startYear + t;
-  var Amount = p * ((r/100) * t);
+  var years = +document.getElementById("years").value;
+  var endYear = startYear + years;
+  var Amount = principal * ((rate/100) * years);
 
-  var StatementAText = "If you deposit " + p;
-  var StatementBText = "On an interest of " + r + "%";
+  var StatementAText = "If you deposit " + principal;
+  var StatementBText = "On an interest of " + rate + "%";
   var StatementCText = "You will receive an amount of $" + Amount;
   var StatementDText = "In the year " + endYear;
 
