@@ -18,12 +18,12 @@ label {
   font-family: arial
 }
 
-.div0 {
+.mainDiv {
 	margin: auto;
 	background-color: white;
 	border-radius: 25px;
-	padding: 25px;
-  	width: 800px;
+	padding: 20px;
+  	width: 300px;
   	height: 350px;
 	}
 
