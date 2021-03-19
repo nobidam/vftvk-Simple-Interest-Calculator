@@ -15,7 +15,7 @@ function compute() {
 
 
 
-    document.getElementById("statementA").innerHTML = StatementAText + <span style="background-color: #FFFF00">principal</span>;
+    document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
     document.getElementById("statementC").innerHTML = StatementCText;
     document.getElementById("statementD").innerHTML = StatementDText;
