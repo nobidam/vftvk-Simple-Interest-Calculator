@@ -18,9 +18,8 @@
               <br><br>
 
               <label for="rate">Interest Rate </label>
-              <input type="range" min="1" max="20" value="10.25" step="0.25" id="rate" name="rate" value="rate"
-               oninput="document.getElementById('iRate').innerHTML = this.value">
-               <label id="iRate">"10.25"</label>
+              <input type="range" min="1" max="20" value="10.25" step="0.25" id="rate" name="rate" value="rate">
+               <span id="iRate">"10.25"</span>
 
               <br><br>
               
@@ -42,10 +41,8 @@
             
 
               <button onclick="compute()">Compute Interest</button>
-              <p id="statementA"></p>
-              <p id="statementB"></p>
-              <p id="statementC"></p>
-              <p id="statementD"></p><br>
+               <span id="result"></span>
+
 
           </div>
           <p>&#169; Everyone Can Get Rich </p>
