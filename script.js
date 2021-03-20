@@ -7,6 +7,8 @@ function compute() {
   var years = +document.getElementById("years").value;
   var endYear = startYear + years;
   var Amount = principal * ((rate/100) * years);
+  var x;
+
 
   var StatementAText = "If you deposit " + principal;
   var StatementBText = "On an interest of " + rate + "%";
@@ -14,13 +16,12 @@ function compute() {
   var StatementDText = "In the year " + endYear;
 
  // If x is Not a Number or less than one
-  if (isNaN(x) || x < 1) {
-    alert("Input not valid");
+  if (principal < 1) {
+      alert("Input not valid");
   } else {
     document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
     document.getElementById("statementC").innerHTML = StatementCText;
     document.getElementById("statementD").innerHTML = StatementDText;
-
+  }
 }
-
