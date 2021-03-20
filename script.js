@@ -17,7 +17,7 @@ function compute() {
 
  // If x is Not a Number or less than one
   if (principal < 1) {
-      alert("Input not valid");
+      alert("Enter a positive number");
   } else {
     document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
