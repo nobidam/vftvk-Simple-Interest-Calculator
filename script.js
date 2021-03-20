@@ -18,6 +18,7 @@ function compute() {
  // If x is Not a Number or less than one
   if (principal < 1) {
       alert("Enter a positive number");
+      document.getElementById("principal").focus();
   } else {
     document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
