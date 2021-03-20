@@ -17,7 +17,6 @@ function compute() {
   if (isNaN(x) || x < 1) {
     alert("Input not valid");
   } else {
-    text = "Input OK";
     document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
     document.getElementById("statementC").innerHTML = StatementCText;
