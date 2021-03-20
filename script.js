@@ -15,9 +15,9 @@ function compute() {
 
  // If x is Not a Number or less than one
   if (isNaN(x) || x < 1) {
-    text = "Input not valid";
+    alert("Input not valid");
   } else {
-      text = "Input OK";
+    text = "Input OK";
     document.getElementById("statementA").innerHTML = StatementAText;
     document.getElementById("statementB").innerHTML = StatementBText;
     document.getElementById("statementC").innerHTML = StatementCText;
